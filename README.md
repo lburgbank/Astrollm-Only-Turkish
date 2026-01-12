@@ -91,3 +91,50 @@ AstroLLM:
 Bir araştırma ve mimari prototiptir
 Gerçek dünyada risk, güvenlik veya bilimsel tahmin aracı olarak kullanılmamalıdır
 Ama açıklanabilir AI sistemleri için güçlü bir referans sunar
+
+DOSYA DOSYA NE İŞE YARIYOR?
+Aşağıdaki tabloyu referans al 👇
+🔵 ÇEKİRDEK (CORE) — SIK DEĞİŞTİRECEKSİN
+✅ astrollmmodule.py
+👉 Beyin
+LLM mantığı
+Attention
+RadioBeam
+Dedup / paraphrase
+Risk hesapları
+📌 En çok değiştireceğin dosya bu
+✅ mini_attention.py
+👉 Hafif attention / skorlayıcı
+Ağırlıklar
+Intent / context / recency
+📌 Deneysel oynamalar için ideal
+📌 GitHub’da kalmalı (core value)
+✅ tiny_transformer.py
+👉 Metin üretimi / yorumlama
+Rapor cümleleri
+Trend açıklamaları
+📌 Stabil ise çok dokunma
+📌 Ama iyileştirme buradan yapılır
+🟡 UYGULAMA / CLI KATMANI
+✅ astrollm.py (Pyramidİde veya Termux ta çalıştırın Ancak dosyalarda dizin yolu editleme yapın yoksa sonuç alamayabilirsiniz)
+👉 Giriş noktası
+CLI komutları
+canli, rapor, neden, tahmin vs.
+📌 Yeni komut eklemek istiyorsan buraya 📌 Android’de çalıştırdığın dosya bu
+🟠 BİLGİ & MODEL
+✅ intent_model.py
+👉 Soru sınıflandırma
+“neden”
+“tehdit”
+“gerçek”
+📌 Basit ve stabil
+📌 Nadiren değişir
+✅ knowledge_base.py
+👉 CSV okuma + arama
+Astronomy bilgileri
+Sabit açıklamalar
+📌 Dataset yapısını değiştirirsen buraya bak
+🟣 VERİ ÜRETİM / YARDIMCI (GENELDE DEĞİŞMEZ)
+⚠️ GenerateTrainCsv.py
+👉 Eğitim CSV üretir
+📌 Bir kere çalıştır → sonra dokunma
