@@ -1,3 +1,4 @@
+<img width="720" height="1600" alt="1000009692" src="https://github.com/user-attachments/assets/0cf2d187-947f-4939-92b9-b38754b79140" />
 # Astrollm-Only-Turkish
 AstroLLM, klasik büyük dil modellerinin (LLM) sınırlamalarını bilinçli şekilde kabul eden; simülasyon, kural tabanlı mantık ve hafif LLM bileşenlerini birleştiren hibrit bir analiz ve karar motoru prototipidir.
 
